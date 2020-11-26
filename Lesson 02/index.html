@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <section class="first">
+        <h1 class="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, illo!</h1>
+        <p class="body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut.
+        </p>
+
+        <span>Lorem ipsum dolor sit amet.</span>
+    </section>
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js">    </script>
+    <script>
+        $(document).ready(function () {
+
+
+            $("section.first").css({
+                'background-color': 'purple',
+                'font-size': '18px'
+            });
+
+            $('section .head').css({
+                'color': 'orange',
+                'font-size': '24px'
+            });
+
+            $('section.first > h1.head').css({
+                'text-align' : 'center'
+            });
+
+
+        });
+
+    </script>
+</body>
+
+</html>
