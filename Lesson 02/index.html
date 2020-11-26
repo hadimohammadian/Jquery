@@ -28,6 +28,14 @@
         <span>Lorem ipsum dolor sit amet.</span>
     </section>
 
+    <section data-attr="first2">
+        <h1 id="head2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, illo!</h1>
+        <p id="body2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut.
+        </p>
+
+        <span>Lorem ipsum dolor sit amet.</span>
+    </section>
+
 
 
 
@@ -64,7 +72,16 @@
                 'text-align' : 'center'
             });
 
-
+            $('section[data-attr= first2]').css(
+                {
+                    'background-color': 'pink'
+                }
+            );
+            $('section[data-attr= first2]>h1#head2').css(
+                {
+                    'background-color': 'green'
+                }
+            );
         });
 
     </script>
