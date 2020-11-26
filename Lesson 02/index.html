@@ -19,6 +19,15 @@
         <span>Lorem ipsum dolor sit amet.</span>
     </section>
 
+    
+    <section id="first">
+        <h1 id="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, illo!</h1>
+        <p id="body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut.
+        </p>
+
+        <span>Lorem ipsum dolor sit amet.</span>
+    </section>
+
 
 
 
@@ -28,7 +37,7 @@
 
 
             $("section.first").css({
-                'background-color': 'purple',
+                'background-color': 'aqua',
                 'font-size': '18px'
             });
 
@@ -38,6 +47,20 @@
             });
 
             $('section.first > h1.head').css({
+                'text-align' : 'center'
+            });
+
+            $("section#first").css({
+                'background-color': 'red',
+                'font-size': '18px'
+            });
+
+            $('section #head').css({
+                'color': 'orange',
+                'font-size': '24px'
+            });
+
+            $('section#first > h1#head').css({
                 'text-align' : 'center'
             });
 
