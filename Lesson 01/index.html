@@ -15,6 +15,20 @@
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
     <h4>Lorem ipsum dolor sit amet consectetur.</h4>
     <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+
+
+
+    <section>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, illo!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut.
+        </p>
+
+        <span>Lorem ipsum dolor sit amet.</span>
+    </section>
+
+
+
+
     <script src="js/jquery-3.5.1.min.js">    </script>
     <script>
         $(document).ready(function () {
@@ -26,9 +40,28 @@
 
             $('h2,h3').css({
                 'color': 'green',
-                'font-size' : '24px'
-                
+                'font-size': '24px'
+
             });
+
+            $('section>h1').css({
+                'color': 'Blue',
+                'font-size': '34px',
+                'text-align' : 'center'
+
+            });
+
+            $('section>p').css({
+                'color': 'purple',
+                'font-size': '34px'
+            });
+
+            $('section>span').css({
+                'color': 'orange',
+                'font-size': '34px'
+            });
+
+
         });
 
     </script>
