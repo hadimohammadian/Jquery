@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+    <button class="btn">ok</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum et ducimus asperiores libero, pariatur totam sit doloribus omnis voluptas nihil quaerat. Iure doloremque asperiores pariatur, tempore consequatur debitis laborum beatae neque nulla. Nihil, repellat nostrum, excepturi culpa eum dolore in placeat dolor enim cum doloremque fugit ad maxime assumenda.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum et ducimus asperiores libero, pariatur totam sit doloribus omnis voluptas nihil quaerat. Iure doloremque asperiores pariatur, tempore consequatur debitis laborum beatae neque nulla. Nihil, repellat nostrum, excepturi culpa eum dolore in placeat dolor enim cum doloremque fugit ad maxime assumenda.</p>
+ 
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p class="p2" style="display: none;">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, magni.
+    </p>
+
+
+    <script src="../Lesson 01/js/jquery-3.5.1.min.js">    </script>
+    <script>
+         $(document).ready(function () { 
+            
+            $('button.btn').click(function(){
+                $('p').css({
+
+                    'background-color':'red',
+                });
+
+                $('h1').fadeOut(1000);
+                $('p.p2').fadeIn(1000);
+                $('p.p2').css({
+                    'background-color':'green',
+                    'font-size' : '34px',
+                });
+
+            });
+         });
+
+    </script>
+</body>
+
+</html>
